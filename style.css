@@ -1,0 +1,127 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.start-quiz{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.start-quiz div h1{
+    font-size: 52px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 5px 35px;
+}
+
+.start-btn{
+    text-align: center;
+}
+
+.start-btn button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 18px 28px;
+    font-size: 28px;
+    font-weight: 600;
+    color: yellow;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid grey;
+    cursor: pointer;
+    text-shadow: 0px 5px 35px;
+
+}
+
+.start-btn button:hover , .start-btn button:hover a{
+    background-color: grey;
+    color: white;
+}
+
+.start-btn button a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz{
+    display: grid;
+    width: 800px;
+    margin-top: 96px;
+    grid-template-rows: 60px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.header h3{
+    font-size: 42px;
+}
+
+.header div{
+    font-size: 32px;
+    margin-top: 52px;
+}
+
+#sec{
+    margin-right: 20px;
+}
+
+.body{
+    padding: 50px;
+}
+
+.option{
+    list-style-type: none;
+    background-color: grey;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.btn{
+    padding: 15px 20px;
+    float: right;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: yellow;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.active{
+    background: transparent;
+    color: yellow;
+    border: 1px solid grey;
+}
+
+.ques-heading{
+    color: white;
+    margin-left: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: 100;
+}
